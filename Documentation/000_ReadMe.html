@@ -1,0 +1,150 @@
+<html>
+
+<head>
+<title>Documentation Plan</title>
+</head>
+
+<body>
+<p>
+To produce the documentation, we need...
+</p><p>
+This plan for producing it.
+</p><p>
+A simple <a href="./contributor-howto.html">how-to for contributors</a>
+</p><p>
+A list of required documentation
+<pre>
+    Contains information on
+        Acquiring the parts
+    	Assembly
+        Initial testing
+    	Using on a patient
+        Cleaning and maintenance
+    	Helpline and FAQ
+    Formats
+    	Printable
+	Usable on a smart phone 
+	    download
+	    online
+</pre>
+</p><p>
+A list of the documents
+	<table border=2 bgcolor="palegoldenrod">
+	<tr><th>Area or status</th><th>Manual</th><th>Type</th></tr>
+	<tr><td>Ventilator Assembly Manuals</td></tr>
+	<tr><td></td><td><a href="./Assembly_Instructions.html">Kit and Frame Assembly Instruction Manual</a></td><td>Full Manual</td></tr>
+	<tr><td>Ventilator Operation Manuals</td></tr>	
+	<tr><td></td><td><a href="./Setup.html">Setup of ventilator</td><td>Quick Start Manual</td></tr>
+	<tr><td></td><td><a href="./Adjustment.html">Adjustment for patient</td><td>Quick Start Manual</td></tr>
+	<tr><td></td><td><a href="./Operation.html">Operating the ventilator</td><td>Full Manual</td></tr>
+	<tr><td></td><td><a href="./Maintenance.html">Disassembly, cleaning, maintenance, and testing</td><td>Full Manual</td></tr>
+    	</table>
+</p><p>
+An complete outline of the documentation contents.  These are based on two important documents
+<ol>
+<li>The <a href="https://www.agorize.com/en/challenges/code-life-challenge/pages/guidelines?lang=en">Code Life Challenge requirements</a></li>
+<li>The <a href="https://medium.com/@RobertLeeRead/open-source-validation-tests-for-open-source-covid-19-emergency-ventilators-7096c6393d61">
+Open source validation tests</a></li>
+</ol>
+	<table border=2 bgcolor="palegoldenrod">
+	<tr><th>Requirement</th><th>Where satisfied</th></tr>
+	<tr><th>VENTILATION FEATURES AND SPECIFICATIONS (SUITABLE FOR INVASIVE VENTILATION)</th></tr>
+	<tr><td>1.Pressure controlled; inspiratory pressure up to 40cmH2O, expiratory pressure up to 25cm H2O
+	    </td><td></tr>
+	<tr><td>2.Respiratory rate 6-40 breaths/minute
+	    </td><td></tr>
+	<tr><td>3.Adjustable inspiratory time or I:E ratio
+	    </td><td></tr>
+	<tr><td>4.Tidal volume measurement (Y piece/other,considering aerosolization risk vs. ease, cost of flow/VT circuit location)
+	    </td><td></tr>
+	<tr><td>5.Capacity to control circuit humidity and temperature (HME, inline or combination)
+	    </td><td></tr>
+	<tr><td>6.FiO2 from 21% to 100% in 10 %increments vs. or room air, 30, 40, 60 and 100% 
+	    </td><td></tr>
+	<tr><td>7.Optional O2 concentration readout
+	    </td><td></tr>
+	<tr><td>8.Triggering - timed and/or patient-triggered
+	    </td><td></tr>
+	<tr><td>9.Can be connected to standard masks,tubes and standard oxygen connectors
+	    </td><td></tr>
+	<tr><td>10.Accuracy (within <10% for volume/pressure, 1 breath a minute for rate)
+	    </td><td></tr>
+	<tr><td>11.Dual circuit with non-rebreathing valve
+	    </td><td></tr>
+	    
+	<tr><th>ALARMS OR LIMITS</th></tr>
+	<tr><td>1.Minute Ventilation (low/high) alarm, peak and low expiratory pressure(or peak +other disconnection alarm).
+	    </td><td></tr>
+	<tr><td>2.Optional Oxygen concentrationhigh and low threshold alarms
+	    </td><td></tr>
+	<tr><td>3.40cm H20 mechanical failsafe value to limit maximum airway pressure
+	    </td><td></tr>
+	    
+	<tr><th>INFECTION CONTROL</th></tr>
+	<tr><td>1.Device incorporates expiratory flow contamination to environment (HEPA or another filter, other device).
+	    </td><td></tr>
+	<tr><td>2.Controlled 'stand-by' or on/off function to stop flow during disconnection of ETT from vent without aerosolization.
+	    </td><td></tr>
+	<tr><td>3.Total disinfection capacity (surface-all models-and consider circuit disinfection time/safety vs. disposable ventilator)
+	    </td><td></tr>
+
+	<tr><th>USER INTERACTION</th></tr>
+	<tr><td>1.Simple, intuitive user interface
+	    </td><td></tr>
+	<tr><td>2.Optional configuration wizard to guide a first-time user through the settings.
+	    </td><td></tr>
+	<tr><td>3.Optional Sequential screen instructions to allow an inexperienced operator to use the ventilator, 
+	    with a "go directly to settings" bypass for ventilator-trained carers)
+	    </td><td></tr>
+	<tr><td>4.Preferably modular, with known failure potential(modular component/other)
+	    </td><td></tr>
+	<tr><td>5.Easy to service (per module if modular)
+	    </td><td></tr>
+	<tr><td>6.Settings legible(at 1m or as per relevant standard), clear markings with standard pictograms especially for critical functions
+	    </td><td></tr>
+	    
+	<tr><th>MATERIAL AND MANUFACTURABILITY</th></tr>  
+	<tr><td>1.Available material (e.g. 3D printable filaments, plastic/metal sheets) biocompatible with inhaled gas
+	    </td><td></tr>
+	    
+	<tr><th>OPERATIONAL REQUIREMENTS</th></tr>
+	<tr><td>1.120V and 240V operation
+	    </td><td></tr>
+	<tr><td>2.Can work without power source for >180 min.
+	    </td><td></tr>
+	    
+	<tr><th>TESTING,CALIBRATION,AND MAINTENANCE REQUIREMENTS</th></tr> 
+	<tr><td>1.Tests to calibrate and validate volume and pressure settings, verify limits and alarms.
+	    </td><td></tr>
+	<tr><td>2.Illustrated and clear diagram for taking apart, replacing, and rebuilding the device safely.
+	    </td><td></tr>
+	<tr><td>3.Clearly described and practicable maintenance, diagnostic, and verification test procedures, including routine functional checks.
+	    </td><td></tr>
+	<tr><td>4.Should be easy to change the battery when necessary.
+	    </td><td></tr>
+	    
+	<tr><th>LIFETIME AND RELIABILITY</th></tr> 
+	<tr><td>1.All components must survive a 14-day 100% duty cycle usage, without replacement.
+	    </td><td></tr>
+	<tr><td>2.Expected failure rate for all functions (particularly critical ones) shall be estimated using a known methodology.
+	    </td><td></tr>
+	<tr><td>3.Alarm related functions shall have an expected failure rate, as per relevant standard
+	    </td><td></tr>
+	<tr><td>4.Design shall be modular and time to repair by module replacement shall be quantified.
+	    </td><td></tr>
+    	</table>
+	
+</p><p>
+Raw material filling in the outline
+<pre>
+    Text
+    List of needed pictures
+</pre>
+</p><p>
+Adequately formated material
+</p><p>
+Elegantly formated material
+</pre>
+
+</body>
+</html>
